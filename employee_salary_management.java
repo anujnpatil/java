@@ -17,6 +17,7 @@ class employee{
         department = sc.next();
         System.out.print("Enter Basic Salary: ");
         basicSalary = sc.nextDouble();
+        sc.close();
     }
 
     void calculateSalary(){
